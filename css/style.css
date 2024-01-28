@@ -1,0 +1,467 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+html{
+    font-size: 62.5%
+}
+body{
+    letter-spacing: 0.3rem;
+    background-color: #ddd;
+    font-family: Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
+}
+
+/* ######## UTILITY CLASSES ######## */
+
+.container{
+    width: 80%;
+    box-sizing: 1200px;
+    margin: 0 auto;
+}
+.text-red{
+    color: #ff0016;
+}
+.text-white{
+    color: white;
+}
+.text-pink{
+    color: #ff93aa;
+}
+.black{
+    background-color: #263238;
+}
+.button{
+    text-decoration: none;
+    border: 2px solid white;
+    padding: 1rem;
+    border-radius: 10rem;
+}
+
+/* ################## HEADER ######################### */
+
+header{
+    background: url(../images/header-image.jpg);
+    height: 100vh;
+    background-position: center;
+    /* object-fit: cover; */
+    background-size: cover;
+    position: relative;
+    background-repeat: no-repeat;
+}
+
+/* ######## NAV BAR ######## */
+
+.nav-logo{
+    float: left;
+    /* width: 50%; */
+    color: white;
+    padding-top: 4rem;
+    padding-bottom: 4rem;
+}
+.nav-items{
+    float: right;
+    padding-top: 4rem;
+    padding-bottom: 4rem;
+}
+.nav-item:hover{
+    border-bottom: 1px solid white
+}
+.clear-fix{
+    clear: both;
+}
+.nav-item{
+    display: inline-block;
+    text-decoration: none;
+    /* font-size: larger; */
+    font-size: 1.5rem;
+    padding-bottom: 0.5rem;
+    /* padding: 1rem; */
+    /* padding-right: 1rem; */
+    margin-left: 1rem;
+}
+.nav-a{
+    text-decoration: none;
+    color: white;
+}
+
+/* ######## HEADER CONTENT ######## */
+
+.header-content{
+    top: 50%;
+    left: 50%;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+.header-h{
+    padding-bottom: 2rem;
+}
+.header-p{
+    padding-bottom: 2rem;
+}
+
+/* ############ SECTION 1 ########## */
+
+.section1{
+    /* border: 2px solid; */
+    margin-top: 10rem;
+    margin-bottom: 10rem;
+}
+.show-case1{
+    box-shadow: 5px 5px 10px rgb(252, 168, 182);
+}
+.image-section1{
+    height: 350px;
+    width: 100%;
+    object-fit: cover;
+    /* position: relative; */
+    /* position: fixed; */
+    
+}
+.float-left{
+    float: left;
+    width: 50%;
+    height: 350px;
+}
+.float-right{
+    float: right;
+    width: 50%;
+    height: 350px;
+    background-color: white;
+    /* text-align: center; */
+}
+.clear-fix{
+    clear: both;
+}
+.section1-h{
+    padding-top: 2rem;
+    padding-left: 2rem;
+}
+.section1-ul{
+    padding-top: 2rem;
+    padding-left: 2rem;
+    font-size: larger;
+}
+
+/* ########### SECTION 2 ############# */
+
+.section2{
+    margin-bottom: 10rem;
+    /* border: 2px solid; */
+    background-color: white;
+    box-shadow: 5px 5px 10px rgb(153, 251, 5);
+}
+.case2-text{
+    float: left;
+    width: 50%;
+    height: 350px;
+    /* font-size: larger; */
+    /* padding-top: 2rem; */
+    /* padding-left: 2rem; */
+}
+.case2-image{
+    float: right;
+    width: 50%;
+    height: 350px;
+}
+.case2-image-sec{
+    height: 350px;
+    width: 100%;
+    object-fit: cover;
+}
+.case2-h{
+    padding-top: 2rem;
+    padding-left: 2rem;
+    color: rgb(9, 247, 53);
+}
+.case2-ul{
+    padding-top: 2rem;
+    padding-left: 2rem;
+    font-size: larger;
+}
+.clear-fix{
+    clear: both;
+}
+
+/* ############ SECTION 3 ################ */
+
+.section3{
+    margin-bottom: 10rem;
+    box-shadow: 5px 5px 10px pink;
+}
+.section3-div1{
+    float: left;
+    width: 33.3333333%;
+    height: 350px;
+    background-color: #263238;
+    color: white;
+}
+.section3-div2{
+    float: right;
+    width: 33.3333333%;
+    height: 350px;
+    background-color: #263238;
+    color: white;
+}
+.section3-div3{
+    float: right;
+    width: 33.333333%;
+    height: 350px;
+    background-color: white;
+}
+.clear-fix{
+    clear: both;
+}
+.div1-h{
+    padding-top: 2rem;
+    text-align: center;
+}
+.div1-p{
+    padding-left: 2rem;
+    padding-top: 2rem;
+    font-size: larger;
+}
+.div2-h{
+    padding-top: 2rem;
+    text-align: center;
+}
+.div2-p{
+    padding-left: 2rem;
+    padding-top: 2rem;
+    font-size: larger;
+}
+.div3-h{
+    padding-top: 2rem;
+    text-align: center;
+}
+.div3-p{
+    padding-left: 2rem;
+    padding-top: 2rem;
+    font-size: larger;
+}
+
+/* ########### FOOTER ############ */
+
+.footer{
+    background-color: #263238;
+    text-align: center;
+}
+.footer-icons{
+    padding-top: 4rem;
+    padding-right: 2rem;
+    padding-bottom: 2rem;
+}
+.footer-p{
+    font-size: 1.5rem;
+    padding-bottom: 4rem;
+}
+
+
+/* #################### ABOUT US ######################## */
+
+/* ######### NAVBAR ############### */
+
+.about-nav{
+    background-color: #263238;
+}
+.about-logo-nav{
+    float: left;
+    /* width: 50%; */
+    padding-top: 4rem;
+    padding-bottom: 4rem;
+}
+.about-nav-ul{ 
+    float: right;
+}
+.clear-fix{
+    clear: both;
+}
+.about-nav-li{
+    list-style: none;
+    display: inline-block;
+    padding-top: 4rem;
+    /* padding-bottom: 4rem; */
+    font-size: 1.5rem;
+    margin-right: 1rem;
+}
+.about-nav-li:hover{
+    border-bottom: 0.1rem solid white;
+}
+.about-nav-a{
+    text-decoration: none;
+}  
+
+/* ########### ANOTHER STUFF ############### */
+
+.about-h{
+    margin-top: 5rem;
+    border-bottom: 0.4rem solid red;
+}
+.about-p{
+    margin-top: 1rem;
+    font-size: larger;
+}
+.about-p-left{
+    float: left;
+    width: 50%;
+    text-align: center;
+    margin-top: 1rem;
+    font-size: larger;
+}
+.about-p-right{
+    float: right;
+    width: 50%;
+    margin-top: 1rem;
+    font-size: larger;
+}
+.clear-fix{
+    clear: both;
+}
+.aboutus-p::before{
+    content: "\2713";
+    padding-right: 1rem;
+    color: red;
+    font-size: larger;
+}
+.about-us-float-left{
+    float: left;
+    width: 25%;
+    margin-top: 1rem;
+}
+.about-us-float-right{
+    float: right;
+    width: 25%;
+    margin-top: 1rem;
+}
+.clear-fix{
+    clear: both;
+}
+
+/* ######### BANNER SECTION ########### */
+
+.banner-aboutus{
+    border: 2px solid;
+    margin-top: 1rem;
+    background-color: red;
+    box-shadow: 5px 5px 10px rgb(237, 254, 5);
+}
+.banner-p{
+    padding-top: 2rem;
+    padding-left: 1rem;
+    font-size: larger;
+}
+.banner-a{
+    text-decoration: none;
+    font-size: larger;
+    padding-left: 1rem;
+    display: inline-block;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    border: 0.2rem solid;
+    margin-left: 1rem;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    padding-right: 1rem;
+}
+
+/* ############## CONTACT ################## */
+
+.contact{
+    margin-top: 5rem;
+}
+
+/* ########### CASE 1 ############ */
+
+.contact-case1{
+    /* border: 2px solid; */
+    width: 45%;
+    background-color: white;
+    height: 500px;
+    box-sizing: border-box;
+    padding-left: 1rem;
+    padding-top: 1rem;
+
+    box-shadow: 5px 5px 10px red;
+}
+.contact-div1-p{
+    margin-top: 1rem;
+    font-size: larger;
+}
+.contact-div1{
+    margin-bottom: 2rem;
+}
+.contact-div1-h{
+    display: inline-block;
+}
+.contact-div2-p{
+    margin-top: 1rem;
+    font-size: larger;
+}
+.contact-div2{
+    margin-bottom: 2rem;
+}
+.contact-div2-h{
+    display: inline-block;
+
+}
+.contact-div3{
+    margin-bottom: 2rem;
+}
+.contact-div3-p{
+    margin-top: 1rem;
+    font-size: larger;
+}
+.contact-div3-h{
+    display: inline-block;
+}
+.case1-image{
+    height: 25rem;
+    width: 95%;
+    object-fit: cover;
+    object-position: right;
+}
+.contact-float-left{
+    float: left;
+}
+.clear-fix{
+    clear: both;
+}
+
+/* ############ CASE 2 ################ */
+
+.contact-float-right{
+    float: right;
+    width: 45%;
+    /* border: 2px solid; */
+    height: 500px;
+    padding-top: 1rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    box-sizing: border-box;
+    background-color: white;
+    box-shadow: 5px 5px 10px red;
+}
+.case2-div1-h{
+    border-bottom: 0.4rem solid red;
+}
+.case2-div1-p{
+    font-size: larger;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+.case2-button{
+    margin-top: 1rem;
+    padding: 0.5rem;
+    background-color: red;
+    color: white;
+}
+.form-element{
+    font-size: larger;
+}
+.form-info{
+    width: 100%;
+}
+.contact-footer{
+    margin-top: 10rem;
+}
